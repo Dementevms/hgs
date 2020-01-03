@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "prettier"
+  ],
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 10,
+    "esversion": 6
+  },
+  "rules": {
+    "curly": "error",
+    "consistent-return": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": [
+      "error",
+      {
+        "object": false,
+        "array": false
+      }
+    ],
+    "prefer-rest-params": "off",
+    "global-require": "off"
+  }
+}
